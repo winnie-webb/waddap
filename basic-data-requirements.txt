@@ -5,7 +5,7 @@ Users are the foundation of the app seen as they create the content. Each user m
 profile name, userid,valid email address or phone number, password,joined date. Optionally, users can have a
 profile image, bio and general location.
 
-"Follows" describe the relationship of the followers and the followed. Each follow must have a followedid 
+Follows describe the relationship of the followers and the followed. Each follow must have a followedid 
 which represents the user who is being followed, followerid whisch represents the user who is following.
 
 
