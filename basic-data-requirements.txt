@@ -1,0 +1,39 @@
+
+N/B- Id refers to a unique identifier for each entry.
+
+Users are the foundation of the app seen as they create the content. Each user must have: a first name, last name, 
+profile name, userid,valid email address or phone number, password,joined date. Optionally, users can have a
+profile image, bio and general location.
+
+"Follows" describe the relationship of the followers and the followed. Each follow must have a followedid 
+which represents the user who is being followed, followerid whisch represents the user who is following.
+
+
+Posts are the content created by users. Each post must have: a userid which represents the creator it belongs to,
+postid,post date and a caption.
+
+Post Media are the source of the posts. Each medium must have: a postid which represents the post it belongs to,
+media type (video or image) and media source. 
+
+Post Comments are feedback of the posts. Each comment must have a postid which represents the post on which it was made ,
+commentid, comment content
+
+Post Likes are the number of likes a post has. Each like must have a postid which represents the post it was made on,
+likedbyid which represents the user who liked the post
+
+Comment Replies are essentially a comments made about another comment. There will only be one layer of
+replying so a reply cannot have reply. Each reply must have a commentid which represents the comment 
+the reply was made on, a replyid and reply content.
+
+Comment likes are the number of likes a comment has. Each comment must have a commentid which represents
+the comment that was liked, likedbyid  which represents the user who liked the comment and comment date.
+
+
+
+
+
+
+
+
+
+
