@@ -2,7 +2,7 @@
 N/B- Id refers to a unique identifier for each entry.
 
 Users are the foundation of the app seen as they create the content. Each user must have: a first name, last name, 
-profile name, userid,valid email address or phone number, password,joined date. Optionally, users can have a
+unique username, userid,valid email address or phone number, password,joined date. Optionally, users can have a
 profile image, bio and general location.
 
 Follows describe the relationship of the followers and the followed. Each follow must have a followedid 
