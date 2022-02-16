@@ -1,7 +1,8 @@
 # waddap
 A social media web application
+
 MVP Database Design :
-![alt text](https://github.com/winnie-webb/waddap/blob/master/image.jpg?raw=true)
+![alt text](https://github.com/winnie-webb/waddap/blob/master/mvp-db-design.jpg?raw=true)
 
 Why I built this project -
 
