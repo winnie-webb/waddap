@@ -2,7 +2,8 @@
 A social media web application
 
 MVP Database Design :
-![alt text](https://github.com/winnie-webb/waddap/blob/master/mvp-db-design.jpg?raw=true)
+<img src="/mvp-db-design.png" alt="Db design" />
+
 
 Why I built this project -
 
