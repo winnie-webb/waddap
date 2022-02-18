@@ -1,7 +1,9 @@
-import { useState } from 'react'
 import './App.scss'
+import Auth from './views/Auth'
 function App() {
-  return (<h1></h1>)
+  return (
+    <Auth></Auth>
+  )
 }
 
 export default App
