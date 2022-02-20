@@ -8,13 +8,6 @@ export const validateContact = (value) => {
   const isPhone = validator.isMobilePhone(value);
   if (!isEmail && !isPhone)
     return (error = "Please enter a valid email or phone number*");
-  if (isEmail) {
-    setContactType("email");
-  }
-  if (isPhone) {
-    setContactType("phone");
-  }
-  console.log(value, isEmail, isPhone);
 
   return error;
 };

@@ -5,8 +5,6 @@ import DobPicker from './DobPicker';
 import logo from '../../assets/logo-black.png';
 import { validateContact, validateName } from "../formValidation"
 function Signup() {
-    const [contactType, setContactType] = useState();
-
 
     return (
         <section className="signup">
