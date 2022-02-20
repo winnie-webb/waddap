@@ -18,7 +18,7 @@ $btn-color-hover: #0400f3c4;
   font-size: 1.4rem;
   &__input {
     display: block;
-    margin: 1rem 0;
+    margin: 0.5rem 0;
     border-color: $border-color;
     border-radius: 0.5rem;
     box-shadow: none;
@@ -26,6 +26,7 @@ $btn-color-hover: #0400f3c4;
     height: 4.5rem;
     padding: 0.5rem;
   }
+
   &-wrapper {
     width: 27.5rem;
   }
@@ -72,4 +73,14 @@ $btn-color-hover: #0400f3c4;
 #login-ref {
   font-size: 1.2rem;
   margin: 1rem;
+}
+// Validation
+
+.field-error {
+  color: red;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+.input-error {
+  border-color: red;
 }
