@@ -1,6 +1,7 @@
 $border-color: #dfdfdf;
 $btn-color: #0500f3;
 $btn-color-hover: #0400f3c4;
+$btn-disabled: #95a5a6;
 .signup {
   display: flex;
   flex-direction: column;
@@ -18,7 +19,7 @@ $btn-color-hover: #0400f3c4;
   font-size: 1.4rem;
   &__input {
     display: block;
-    margin: 0.5rem 0;
+    margin: 1rem 0;
     border-color: $border-color;
     border-radius: 0.5rem;
     box-shadow: none;
@@ -56,8 +57,7 @@ $btn-color-hover: #0400f3c4;
   color: #454545;
   font-size: 1.2rem;
 }
-.signup__form__nextBtn {
-  width: 100%;
+.signup__form__btn {
   padding: 1rem 0;
   background-color: $btn-color;
   color: #fff;
@@ -65,14 +65,29 @@ $btn-color-hover: #0400f3c4;
   border-radius: 4rem;
   transition: background-color 0.5s;
   cursor: pointer;
-  margin-top: 1rem;
   &:hover {
     background-color: $btn-color-hover;
   }
 }
+
+.signup__form__nextBtn {
+  width: 100%;
+  margin-top: 1rem;
+}
+
 #login-ref {
   font-size: 1.2rem;
   margin: 1rem;
+}
+.signup__form__btnPrev {
+  background-color: #2ecc71;
+  width: 30%;
+  &:hover {
+    background-color: #2ecc70ce;
+  }
+}
+.signup__form__btnSubmit {
+  width: 50%;
 }
 // Validation
 
@@ -83,4 +98,13 @@ $btn-color-hover: #0400f3c4;
 }
 .input-error {
   border-color: red;
+}
+.btn-disabled {
+  background-color: $btn-disabled !important;
+}
+.form-navigation {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
 }
